@@ -1,10 +1,8 @@
-// Array de números del 0 al 3
 const numbers = [0, 1, 2, 3];
-
-// https://github.com/PastelitoSoft/app-sonidos.git
 const btnPlay = document.getElementById('play');
 const btnReload = document.getElementById('reload');
 const sonido = document.getElementById('sonido');
+const visualizer = document.getElementById('audio-visualizer');
 
 btnPlay.addEventListener('click', () => {
     if (numbers.length > 0) {
@@ -14,6 +12,13 @@ btnPlay.addEventListener('click', () => {
 
         sonido.src = `./res/sound/${selectedNumber}.mp3`;
         sonido.play();
+
+        visualizer.style.visibility = 'visible';
+        visualizer.style.animationPlayState = 'running';
+
+        sonido.onended = () => {
+            visualizer.style.visibility = 'hidden';
+        };
 
         numbers.splice(randomIndex, 1);
 
@@ -26,8 +31,13 @@ btnPlay.addEventListener('click', () => {
 });
 
 btnReload.addEventListener('click', () => {
-    if (sonido.src != '') {
+    if (sonido.src) {
         sonido.play();
+        visualizer.style.visibility = 'visible';
+        visualizer.style.animationPlayState = 'running';
+        sonido.onended = () => {
+            visualizer.style.visibility = 'hidden';
+        };
     }
 });
 
