@@ -237,7 +237,7 @@
 @media (max-width: 645px) {
 
     .bicho {
-        width: 150px;
+        width: 130px;
         pointer-events: none;
         margin-bottom: 20px;
     }
@@ -250,7 +250,7 @@
 
     .maquina {
         width: 100%;
-        width: 340px;
+        width: 320px;
         height: 540px;
         display: grid;
         grid-template-rows: 10% 40% 10% 30% 10%;
@@ -263,7 +263,7 @@
     }
 
     .fondo-maquina {
-        width: 340px;
+        width: 320px;
         height: 540px;
         position: absolute;
         z-index: 50;
@@ -291,7 +291,7 @@
 
     .maquina {
         width: 100%;
-        width: 340px;
+        width: 320px;
         height: 540px;
         display: grid;
         grid-template-rows: 10% 40% 10% 30% 10%;
@@ -304,7 +304,7 @@
     }
 
     .fondo-maquina {
-        width: 340px;
+        width: 320px;
         height: 540px;
         position: absolute;
         z-index: 50;
