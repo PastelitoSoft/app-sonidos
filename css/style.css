@@ -108,9 +108,9 @@
 .pantalla {
     width: 280px;
     height: 200px;
-    background-color: #FAFAD2;
+    background-color: #9ce5b6;
     border-radius: 15px;
-    border: #FFD19C solid 6px;
+    border: #3e7852 solid 6px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -293,11 +293,9 @@
     }
 
     .pantalla {
-        width: 250px;
+        width: 270px;
         height: 200px;
-        background-color: #FAFAD2;
         border-radius: 15px;
-        border: #FFD19C solid 6px;
 
     }
 
@@ -366,9 +364,8 @@
     .pantalla {
         width: 270px;
         height: 195px;
-        background-color: #FAFAD2;
         border-radius: 15px;
-        border: #FFD19C solid 6px;
+
 
     }
 
