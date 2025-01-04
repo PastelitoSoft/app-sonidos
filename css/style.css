@@ -121,7 +121,7 @@
 }
 
 .audio-visualizer {
-    width: 280px;
+    width: 270px;
     height: 201px;
     display: flex;
     align-items: center;
@@ -135,7 +135,7 @@
 
 
 .bar {
-    width: 45px;
+    width: 35px;
     background: linear-gradient(to top, #8F4FED, #FF14FF);
     border-radius: 5px;
     transform-origin: bottom;
@@ -272,6 +272,28 @@
 
     }
 
+
+    .audio-visualizer {
+        width: 240px;
+        height: 190px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 10px;
+        visibility: hidden;
+
+    }
+
+    .bar {
+        width: 35px;
+        background: linear-gradient(to top, #8F4FED, #FF14FF);
+        border-radius: 5px;
+        transform-origin: bottom;
+        animation: bounce 0.8s infinite ease-in-out;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -285,8 +307,8 @@
     }
 
     .bicho3 {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .maquina {
@@ -314,7 +336,7 @@
     }
 
     .audio-visualizer {
-        width: 260px;
+        width: 240px;
         height: 190px;
         display: flex;
         align-items: center;
@@ -324,6 +346,14 @@
         padding: 10px;
         visibility: hidden;
 
+    }
+
+    .bar {
+        width: 35px;
+        background: linear-gradient(to top, #8F4FED, #FF14FF);
+        border-radius: 5px;
+        transform-origin: bottom;
+        animation: bounce 0.8s infinite ease-in-out;
     }
 
 }
