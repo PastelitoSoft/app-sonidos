@@ -129,7 +129,8 @@
 }
 
 .texto-inicio {
-    text-align: center;
+    display: flex;
+    text-align: left;
     font-size: larger;
     font-weight: bold;
     margin: 0%;
